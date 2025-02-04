@@ -1,0 +1,1 @@
+import{createRouter as r,createWebHistory as t}from"vue-router";import e from"./app.vue";let routes=[{path:"/",name:"Home",component:e},{path:"/:catchAll(.*)",redirect:"/"}],router=r({history:t(),routes});export default router;

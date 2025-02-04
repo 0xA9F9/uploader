@@ -1,0 +1,1 @@
+const CopyWebpackPlugin=require("copy-webpack-plugin"),{DefinePlugin:e}=require("webpack");module.exports={configureWebpack:{plugins:[new CopyWebpackPlugin({patterns:[{from:"src/assets",to:"assets"}]}),new e({__VUE_PROD_HYDRATION_MISMATCH_DETAILS__:JSON.stringify(!1)}),]}};

@@ -1,0 +1,1 @@
+import{createApp as s}from"vue";import o from"./app.vue";import"./assets/css/styles.css";import r from"./router";s(o).use(r).mount("#app");
